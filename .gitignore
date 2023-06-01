@@ -2,3 +2,4 @@
 node_modules
 
 server/extensions/local-secret.js
+server/extensions/cycdm.js
