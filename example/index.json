@@ -1,0 +1,68 @@
+{
+    "version": 2,
+    "schema": "easybangumi-local-database",
+    "source": [
+        {
+            "id": 1001,
+            "tid": 1,
+            "title": "测试视频",
+            "coverUrl": "./example.png",
+            "description": "这是一个测试用视频",
+            "tags": "",
+            "actor": "",
+            "director": "",
+            "writer": "",
+            "pubdate": "2023-5-31",
+            "score": null,
+            "play_list": [
+                {
+                    "episod": "example",
+                    "path": "./example.mp4",
+                    "type": "video"
+                },
+                {
+                    "episod": "测试2",
+                    "path": "https://www.w3schools.com/html/movie.mp4",
+                    "type": "video"
+                }
+            ]
+        },
+        {
+            "id": 1002,
+            "tid": 2,
+            "title": "测试视频",
+            "coverUrl": "./example.png",
+            "description": "这是一个测试用视频",
+            "tags": "",
+            "actor": "",
+            "director": "",
+            "writer": "",
+            "pubdate": "2023-5-31",
+            "score": null,
+            "play_list": [
+                {
+                    "episod": "example",
+                    "path": "./example.mp4",
+                    "type": "video"
+                },
+                {
+                    "episod": "测试2",
+                    "path": "https://www.w3schools.com/html/movie.mp4",
+                    "type": "video"
+                }
+            ]
+        }
+    ],
+    "class": [
+        {
+            "tid": 1,
+            "name": "视频",
+            "description": "测试文本"
+        },
+        {
+            "tid": 1,
+            "name": "测试视频",
+            "description": "测试文本2"
+        }
+    ]
+}
